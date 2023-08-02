@@ -9,11 +9,11 @@ git clone --recurse-submodules https://github.com/jirijakes/nostr-collection
 
 ** Overview
 
-| Name | Type | Language | Last commit |
-|------+------+----------+-------------|
-| amethyst | client | Kotlin | Additional classes to be serialized (2023-08-02 01:56) |
-| futr | client | Haskell | Merge pull request #12 from prolic/dev-build-docker (2022-08-05 22:06) |
-| gossip | client | Rust | Allow data_dir/gossip to be a symlink (2023-07-30 22:57) |
-| iris-messenger | client | TypeScript | custom chat header component (2023-08-02 11:24) |
-| nostr-sdk | sdk | Rust | ffi: return `PublicKey` instead of `String` in `NostrConnectURI` `public_key` method (2023-08-02 14:14) |
-| primal-web-app | client | TypeScript | Link to profile edit page from profile page (2023-07-25 13:50) |
+| Name | Type | Language | Source | Last commit |
+|------+------+----------+--------+-------------|
+| amethyst | client | Kotlin | [[https://github.com/vitorpamplona/amethyst][gh]] | Displaying a bytecounter for events in memory when the app pauses. (2023-08-02 20:34) |
+| futr | client | Haskell | [[https://github.com/prolic/futr][gh]] | Merge pull request #12 from prolic/dev-build-docker (2022-08-05 22:06) |
+| gossip | client | Rust | [[https://github.com/mikedilger/gossip][gh]] | Allow data_dir/gossip to be a symlink (2023-07-30 22:57) |
+| iris-messenger | client | TypeScript | [[https://github.com/irislib/iris-messenger][gh]] | Merge branch 'production' (2023-08-02 21:48) |
+| nostr-sdk | sdk | Rust | [[https://github.com/rust-nostr/nostr][gh]] | ffi: update `python` commands (2023-08-02 16:56) |
+| primal-web-app | client | TypeScript | [[https://github.com/PrimalHQ/primal-web-app][gh]] | Link to profile edit page from profile page (2023-07-25 13:50) |
