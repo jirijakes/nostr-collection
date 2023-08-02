@@ -1,0 +1,8 @@
+* Collection of Nostrstuff
+
+There exists a huge, and increasingly huger, amount of code related to Nostr – clients, relays and SDKs.
+This repository puts them together so anyone can explore and study them by just calling
+
+#+BEGIN_SRC sh
+git clone --recurse-submodules https://github.com/jirijakes/nostr-collection
+#+END_SRC

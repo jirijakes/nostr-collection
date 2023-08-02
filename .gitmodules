@@ -1,0 +1,6 @@
+[submodule "sdk/rust/nostr-sdk"]
+	path = sdk/rust/nostr-sdk
+	url = https://github.com/rust-nostr/nostr
+[submodule "clients/typescript/primal-web-app"]
+	path = clients/typescript/primal-web-app
+	url = https://github.com/PrimalHQ/primal-web-app
