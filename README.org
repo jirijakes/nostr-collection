@@ -11,5 +11,9 @@ git clone --recurse-submodules https://github.com/jirijakes/nostr-collection
 
 | Name | Type | Language | Last commit |
 |------+------+----------+-------------|
-| nostr-sdk | sdk | Rust | ffi: impl From<&PublicKey> for XOnlyPublicKey (2023-08-02 13:39) |
+| amethyst | client | Kotlin | Additional classes to be serialized (2023-08-02 01:56) |
+| futr | client | Haskell | Merge pull request #12 from prolic/dev-build-docker (2022-08-05 22:06) |
+| gossip | client | Rust | Allow data_dir/gossip to be a symlink (2023-07-30 22:57) |
+| iris-messenger | client | TypeScript | custom chat header component (2023-08-02 11:24) |
+| nostr-sdk | sdk | Rust | ffi: return `PublicKey` instead of `String` in `NostrConnectURI` `public_key` method (2023-08-02 14:14) |
 | primal-web-app | client | TypeScript | Link to profile edit page from profile page (2023-07-25 13:50) |

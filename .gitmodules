@@ -4,3 +4,15 @@
 [submodule "clients/typescript/primal-web-app"]
 	path = clients/typescript/primal-web-app
 	url = https://github.com/PrimalHQ/primal-web-app
+[submodule "clients/haskell/futr"]
+	path = clients/haskell/futr
+	url = https://github.com/prolic/futr
+[submodule "clients/rust/gossip"]
+	path = clients/rust/gossip
+	url = https://github.com/mikedilger/gossip
+[submodule "clients/kotlin/amethyst"]
+	path = clients/kotlin/amethyst
+	url = https://github.com/vitorpamplona/amethyst
+[submodule "clients/typescript/iris-messenger"]
+	path = clients/typescript/iris-messenger
+	url = https://github.com/irislib/iris-messenger

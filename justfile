@@ -45,8 +45,12 @@ infotable:
 [private]
 language:
     #!/usr/bin/env bash
-    if [ -f "Cargo.toml" ]; then echo "Rust"
-    elif [ -f "tsconfig.json" ]; then echo "TypeScript"
+    if [[ -f "Cargo.toml" || -f "build.rs" ]]; then echo "Rust"
+    elif [[ -f "tsconfig.json" ]]; then echo "TypeScript"
+    elif compgen -G "*.cabal" > /dev/null; then echo "Haskell"
+    elif [[ -f "stack.yaml" ]]; then echo "Haskell"
+    elif grep -q -i kotlin build.gradle; then echo "Kotlin"
+    else echo "Unknown"
     fi
 
 [no-cd]
@@ -55,9 +59,9 @@ type:
     #!/usr/bin/env bash
     cd ../..
     grandma=$(basename `pwd`)
-    if [ $grandma == "clients" ]; then echo "client"
-    elif [ $grandma == "sdk" ]; then echo "sdk"
-    elif [ $grandma == "relays" ]; then echo "relay"
+    if [[ $grandma == "clients" ]]; then echo "client"
+    elif [[ $grandma == "sdk" ]]; then echo "sdk"
+    elif [[ $grandma == "relays" ]]; then echo "relay"
     fi
 
 # Display info for each project
