@@ -56,6 +56,8 @@ language:
     #!/usr/bin/env bash
     if [[ -f "Cargo.toml" || -f "build.rs" ]]; then echo "Rust"
     elif [[ -f "tsconfig.json" ]]; then echo "TypeScript"
+    elif [[ -f "Project.toml" ]]; then echo "Julia"
+    elif [[ -f "Package.swift" ]]; then echo "Swift"
     elif compgen -G "*.cabal" > /dev/null; then echo "Haskell"
     elif [[ -f "stack.yaml" ]]; then echo "Haskell"
     elif grep -q -i kotlin build.gradle; then echo "Kotlin"

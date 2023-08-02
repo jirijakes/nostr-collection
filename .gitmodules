@@ -16,3 +16,9 @@
 [submodule "clients/typescript/iris-messenger"]
 	path = clients/typescript/iris-messenger
 	url = https://github.com/irislib/iris-messenger
+[submodule "sdk/julia/primal-caching-service"]
+	path = sdk/julia/primal-caching-service
+	url = https://github.com/PrimalHQ/primal-caching-service
+[submodule "clients/swift/damus"]
+	path = clients/swift/damus
+	url = https://github.com/damus-io/damus
