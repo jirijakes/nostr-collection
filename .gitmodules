@@ -22,3 +22,6 @@
 [submodule "clients/swift/damus"]
 	path = clients/swift/damus
 	url = https://github.com/damus-io/damus
+[submodule "clients/typescript/JiYou"]
+	path = clients/typescript/JiYou
+	url = https://github.com/TimA314/JiYou

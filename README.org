@@ -11,11 +11,12 @@ git clone --recurse-submodules https://github.com/jirijakes/nostr-collection
 
 | Name | Type | Language | Source | Last commit |
 |------+------+----------+--------+-------------|
-| amethyst | client | Kotlin | [[https://github.com/vitorpamplona/amethyst][gh]] | Merge pull request #537 from anthony-robin/update-french-translations (2023-08-03 21:05) |
-| damus | client | Swift | [[https://github.com/damus-io/damus][gh]] | setting: adjustable font size for jack the zapper (2023-08-04 01:38) |
+| amethyst | client | Kotlin | [[https://github.com/vitorpamplona/amethyst][gh]] | don't return reposts and reactions in Search (2023-08-05 14:44) |
+| damus | client | Swift | [[https://github.com/damus-io/damus][gh]] | fix: crash when muting threads (2023-08-04 12:13) |
 | futr | client | Haskell | [[https://github.com/prolic/futr][gh]] | Merge pull request #12 from prolic/dev-build-docker (2022-08-05 22:06) |
-| gossip | client | Rust | [[https://github.com/mikedilger/gossip][gh]] | Allow data_dir/gossip to be a symlink (2023-07-30 22:57) |
-| iris-messenger | client | TypeScript | [[https://github.com/irislib/iris-messenger][gh]] | msg form colors (2023-08-03 20:44) |
-| nostr-sdk | sdk | Rust | [[https://github.com/rust-nostr/nostr][gh]] | ffi: improve `init_logger` function (2023-08-03 11:14) |
-| primal-caching-service | sdk | Julia | [[https://github.com/PrimalHQ/primal-caching-service][gh]] | mutelist api request (2023-08-01 15:42) |
+| gossip | client | Rust | [[https://github.com/mikedilger/gossip][gh]] | fetcher: show status code on other error (2023-08-05 02:47) |
+| iris-messenger | client | TypeScript | [[https://github.com/irislib/iris-messenger][gh]] | wip separate files for different embed types (2023-08-05 20:57) |
+| JiYou | client | TypeScript | [[https://github.com/TimA314/JiYou][gh]] | Vite pwa updates (#59) (2023-08-05 20:03) |
+| nostr-sdk | sdk | Rust | [[https://github.com/rust-nostr/nostr][gh]] | ffi: add `timeout` to `client.py` example (2023-08-04 15:00) |
+| primal-caching-service | sdk | Julia | [[https://github.com/PrimalHQ/primal-caching-service][gh]] | event import: check if event was successfully parsed from a message (2023-08-05 06:04) |
 | primal-web-app | client | TypeScript | [[https://github.com/PrimalHQ/primal-web-app][gh]] | Link to profile edit page from profile page (2023-07-25 13:50) |
